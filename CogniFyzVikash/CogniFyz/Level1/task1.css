@@ -1,0 +1,116 @@
+*,body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* 
+section {
+    padding: 20px;
+} */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+nav{
+    background-color: rgb(75, 75, 109);
+    color: white;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 70px;
+    /* background-color: rgb(91, 91, 189); */
+}
+
+nav{
+    margin-bottom: 10px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph{
+    line-height: 1.5rem;
+    color: rgb(102, 106, 105);
+}
+
+
+.form{
+    margin: 20px;
+    height: 25rem;
+    width: 100vh;
+    border: 2px dotted rgb(83, 79, 79);
+    margin-bottom: 30px;
+    padding: 50px;
+   margin-left: auto;
+   margin-right: auto;
+    
+}
+.image{
+    margin: 2rem 0;
+}
+.heading, .paragraph{
+    margin: 2rem 0;
+}
+#textarea{
+    color: black;
+}
+#fname{
+        margin: 10px;
+}
+
+#lname{
+    margin: 10px;
+}
+
+
+#email{
+    margin: 10px;
+}
+.gap{
+    margin: 10px;
+}
+
+.Submit{
+   
+    margin-top: 1rem;
+}
+
+
+
+
+.button{
+    padding: 10px 20px;
+    background-color: rgb(64, 82, 76);
+    color: rgb(239, 236, 236);
+    border-radius: 10px;
+}
+button:hover{
+    scale: 1.1;
+    transition: all 1s;
+}
+
+
+
+
+
+
+
+
+

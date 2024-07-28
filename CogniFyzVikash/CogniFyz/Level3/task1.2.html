@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+             margin:0;
+             padding:0;
+             box-sizing:border-box;
+             font-family:'arial';
+          }
+         
+        body{
+        height:100vh;
+        width:100%;
+        display: grid;
+        place-items: center;
+        
+        }
+        .imageSlider{
+            width: 60%;
+            height: 500px;
+            background-image: url(images/1.jpg);
+            background-size: 100% 100%;
+            box-shadow: rgb(63, 57, 57) 0px 8px 24px;
+            animation: changeIMage 20s linear infinite ;
+
+        }
+
+        @keyframes changeIMage {
+            0%{
+                background-image: url(images/5.jpg);
+            }
+            25%{
+                background-image: url(images/2.jpg);
+            }
+            50%{
+                background-image: url(images/1.jpg);
+            }
+            75%{
+                background-image: url(images/3.jpg);
+            }
+            100%{
+                background-image: url(images/4.jpg);
+            }
+            
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+    <div class="imageSlider">
+
+    </div>
+    
+</body>
+</html>
